@@ -15,7 +15,7 @@ const ProdakPage: React.FC<ProdakpageProps> = async ({ params }) => {
   const prodak = await getProdak(params.prodakid);
 
   const sugestedProdak = await getProdaks({
-    catagoriId: prodak?.catagori?.id,
+    categoryId: prodak?.catagori?.id,
   });
   return (
     <div className="bg-white">

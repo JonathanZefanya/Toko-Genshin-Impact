@@ -4,24 +4,23 @@ import qs from "query-string";
 const URL = `${process.env.PUBLIC_API_URL}/products`;
 
 interface Query {
-  catagoriId?: string;
+  categoryId?: string;
   isFiatured?: boolean;
 }
 
 const getProdaks = async (query: Query): Promise<Prodak[]> => {
   try {
+    // Tambahkan logging untuk memeriksa queryString
     const queryString = qs.stringify(query, { skipNull: true, skipEmptyString: true });
+    console.log('Fetching URL:', `${URL}?${queryString}`);
+    
     const fullUrl = `${URL}?${queryString}`;
-
     const res = await fetch(fullUrl, {
-      // Tambahkan cache configuration
-      cache: 'no-store', // Untuk data dinamis
-      // atau 
-      next: { revalidate: 0 } // Untuk Next.js
+      cache: 'no-store',
     });
 
     if (!res.ok) {
-      const errorText = await res.text(); // Dapatkan pesan error
+      const errorText = await res.text();
       console.error('Error response:', errorText);
       throw new Error(`HTTP error! status: ${res.status}`);
     }

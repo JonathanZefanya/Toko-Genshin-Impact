@@ -10,8 +10,23 @@ interface CatagoriPageProps {
 }
 
 const Catagoripage: React.FC<CatagoriPageProps> = async ({ params }) => {
-  const prodak = await getProdaks({ catagoriId: params.catagoriId });
+  // Fetch produk berdasarkan kategori
+  const prodak = await getProdaks({ categoryId: params.catagoriId });
+
+  // Fetch kategori yang dipilih
   const catagori = await getCatagori(params.catagoriId);
+
+  // Pastikan kategori ditemukan
+  if (!catagori) {
+    return (
+      <div className="bg-white">
+        <Container>
+          <p>Kategori tidak ditemukan.</p>
+        </Container>
+      </div>
+    );
+  }
+
   return (
     <div className="bg-white">
       <Container>

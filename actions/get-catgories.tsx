@@ -5,7 +5,7 @@ const Url = `${process.env.PUBLIC_API_URL}/categories`;
 const getCatgories = async (): Promise<Catagori[]> => {
   try {
     const res = await fetch(Url, {
-      cache: 'no-store', // Disable caching
+      // cache: 'no-store', // Disable caching
       // Atau untuk Next.js 13+
       next: { 
         revalidate: 0, // Revalidate setiap saat
