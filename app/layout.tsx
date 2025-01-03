@@ -12,20 +12,20 @@ const font = Urbanist({ subsets: ['latin'], fallback: ['sans-serif'] });
 export const metadata: Metadata = {
   title: 'Toko GI - Toko Online Terlengkap & Terpercaya',
   icons: { icon: "/icon.png" },
-  description: 'Belanja online kebutuhan sehari-hari, fashion, elektronik, dan banyak lagi di Toko GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman cepat!',
-  keywords: ['toko online', 'belanja online', 'produk murah', 'Toko GI', 'fashion', 'elektronik', 'promo toko online'],
-  authors: [{ name: 'Toko GI Team', url: 'https://Toko-GI.com' }],
+  description: 'Topup Blessing dan Genesis di Toko GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman yang cepat!',
+  keywords: ['toko online', 'toko topup', 'produk murah', 'Toko GI', 'topup', 'blessing', 'genesis', 'genesis crystal', 'topup','genshin', 'genshin impact'],
+  authors: [{ name: 'Toko Genshin Impact', url: 'https://tokogi.xead.my.id' }],
   openGraph: {
-    title: 'Toko GI - Toko Online Terlengkap & Terpercaya',
-    description: 'Belanja online kebutuhan sehari-hari, fashion, elektronik, dan banyak lagi di Toko-GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman cepat!',
-    url: 'https://Toko-GI.com',
+    title: 'Toko GI - Toko Top Up Genshin Impact Terlengkap & Terpercaya',
+    description: 'Topup Blessing dan Genesis di Toko GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman yang cepat!',
+    url: 'https://tokogi.xead.my.id',
     siteName: 'Toko-GI',
     images: [
       {
-        url: 'https://Toko-GI.com/images/og-image.jpg',
+        url: 'https://bio.linkcdn.cc/upload/2021123107/164093543711675368.png',
         width: 1200,
         height: 630,
-        alt: 'Toko-GI - Toko Online Terlengkap & Terpercaya',
+        alt: 'Toko-GI - Toko Top Up Terlengkap & Terpercaya',
       },
     ],
     locale: 'id_ID',
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@xeadesta',
     title: 'Toko-GI - Toko Online Terlengkap & Terpercaya',
-    description: 'Belanja online kebutuhan sehari-hari, fashion, elektronik, dan banyak lagi di Toko-GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman cepat!',
-    images: ['https://Toko-GI.com/images/og-image.jpg'],
+    description: 'Topup Blessing dan Genesis di Toko GI. Dapatkan produk berkualitas dengan harga terbaik dan pengiriman yang cepat!',
+    images: ['https://bio.linkcdn.cc/upload/2021123107/164093543711675368.png'],
   },
 };
 
