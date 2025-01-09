@@ -34,12 +34,12 @@ Selamat datang di **TOKOGI**, sebuah toko top-up modern untuk para pemain Genshi
 ## 📸 Tangkapan Layar
 | **Halaman**           | **Tangkapan Layar**                               |
 |-----------------------|--------------------------------------------------|
-| Halaman Utama         | ![Halaman Utama](https://via.placeholder.com/600x400) |
-| Halaman Produk        | ![Halaman Produk](https://via.placeholder.com/600x400) |
-| Halaman Registrasi    | ![Halaman Registrasi](https://via.placeholder.com/600x400) |
-| Halaman Login         | ![Halaman Login](https://via.placeholder.com/600x400) |
-| Halaman Pembayaran    | ![Halaman Pembayaran](https://via.placeholder.com/600x400) |
-| Kontak WhatsApp       | ![Kontak WhatsApp](https://via.placeholder.com/600x400) |
+| Halaman Utama         | ![Halaman Utama](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/utama.png) |
+| Halaman Produk        | ![Halaman Produk](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/produk.png) |
+| Halaman Registrasi    | ![Halaman Registrasi](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/regist.png) |
+| Halaman Login         | ![Halaman Login](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/login.png) |
+| Halaman Pembayaran    | ![Halaman Pembayaran](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/payment.png) |
+| Kontak WhatsApp       | ![Kontak WhatsApp](https://github.com/JonathanZefanya/Toko-Genshin-Impact/blob/main/screenshot/detail.png) |
 
 ---
 
